@@ -10,7 +10,7 @@
 ### Mac下HomeBrew的安装
 	https://gitee.com/cunkai/HomebrewCN?_from=gitee_search
 
-### Mac下git的配置文件
+### Mac下git的配置文件(安装了HomeBrew)
 	[safe]
 		directory = /opt/homebrew/Library/Taps/homebrew/homebrew-core
 		directory = /opt/homebrew/Library/Taps/homebrew/homebrew-cask
@@ -26,3 +26,11 @@
 	Port 443
 	User git
 	ProxyCommand nc -v -x 127.0.0.1:7890 %h %p
+
+### Mac下Sublime中LiveReload自启动配置
+    "enabled_plugins": [
+          "SimpleReloadPlugin",
+          "SimpleRefresh"
+    ]
+
+### END
