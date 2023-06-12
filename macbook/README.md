@@ -10,6 +10,8 @@
 		email = xiaomengjie2020@yeah.net
 	[http "https://github.com"]
 		proxy = socks5://127.0.0.1:7890
+	[https "https://github.com"]
+		proxy = socks5://127.0.0.1:7890
 
 ### Mac下SSH的配置文件-路径：～/.ssh/config
 	Host github.com
@@ -27,5 +29,3 @@
 ### Mac下zsh终端环境变量的配置
 	1、在～/.bash_profile文件中配置路径
 	2、在～/.zshrc文件中添加 source .bash_profile
-
-### END
