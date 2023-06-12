@@ -22,8 +22,8 @@
 
 ### Mac下Sublime中LiveReload自启动配置
 	"enabled_plugins": [
-        "SimpleReloadPlugin",
-        "SimpleRefresh"
+        	"SimpleReloadPlugin",
+        	"SimpleRefresh"
         ]
 
 ### Mac下zsh终端环境变量的配置
