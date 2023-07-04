@@ -25,3 +25,5 @@
 
 #### 线程间通信——等待/唤醒（[WaitThread.java](src%2Fmain%2Fjava%2Fthread%2FWaitThread.java)）
     当线程需要的资源需要等待另一线程准备完成时，通过wait/notify方法等待唤醒
+
+#### Android中的Handler机制（[handler](src%2Fmain%2Fjava%2Fthread%2Fhandler)）

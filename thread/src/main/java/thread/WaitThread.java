@@ -13,7 +13,7 @@ public class WaitThread extends Thread{
         }
     }
 
-    // TODO: 2023/6/30 wait/notify必须在同步代码块内
+    //TODO: 2023/6/30 wait/notify必须在同步代码块内
     //TODO synchronized对象，xxx.wait，xxx.notify，必须是同一个
     //TODO synchronized (monitor), monitor.wait(), monitor.notify();
     @Override
